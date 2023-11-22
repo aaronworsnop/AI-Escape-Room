@@ -1,36 +1,23 @@
-# SOFTENG 206 - EscAIpe Room
+# AI Escape Room
+## GPT 3.5 Turbo powered riddle and escape room game in Java
+`Java` `GitHub Flow` `Game Design` `UI`
 
-## To setup OpenAI's API
+This game was a team project, focusing on Software Design, version control and implementing new AI and GPT technologies. Our project won *"Best Graphics."*
+- OpenAI GPT 3.5 Turbo API
+  - AI riddles
+  - Game Master interaction
+  - Prompt engineering
+- Mini-games
+- Hint system
+- Intuitive menu
+- AI generated imagery
 
-- add in the root of the project (i.e., the same level where `pom.xml` is located) a file named `apiproxy.config`
-- put inside the credentials that you received from no-reply@digitaledu.ac.nz (put the quotes "")
+*To run this game...*
+- Clone this repository
+- In your terminal use `./mvnw clean javafx:run`
 
-  ```
-  email: "upi123@aucklanduni.ac.nz"
-  apiKey: "YOUR_KEY"
-  ```
-  these are your credentials to invoke the OpenAI GPT APIs
+*Note that for security reasons, in this version of the game AI functionality is absent. Please reach out to me if you would like a demo.*
 
-## To setup codestyle's API
+---
 
-- add in the root of the project (i.e., the same level where `pom.xml` is located) a file named `codestyle.config`
-- put inside the credentials that you received from gradestyle@digitaledu.ac.nz (put the quotes "")
-
-  ```
-  email: "upi123@aucklanduni.ac.nz"
-  accessToken: "YOUR_KEY"
-  ```
-
- these are your credentials to invoke GradeStyle
-
-## To run the game
-
-`./mvnw clean javafx:run`
-
-## To debug the game
-
-`./mvnw clean javafx:run@debug` then in VS Code "Run & Debug", then run "Debug JavaFX"
-
-## To run codestyle
-
-`./mvnw clean compile exec:java@style`
+![tsg-1](https://github.com/aaronworsnop/AI-Escape-Room/assets/15990400/da0f7b69-9e13-4e4d-a8c8-4141167d7cbd)
